@@ -101,7 +101,7 @@ function Todo() {
     return (
         <div className="container mt-5">
             <div className="row">
-                <div className="col-sm-12 col-md-7 ">
+                <div className="col-sm-12 order-sm-2 order-md-1 col-md-7 ">
                     <h2 className="text-start mb-2"><span className="text-warning me-2"><EmojiSmile /></span>Todos </h2>
 
                     {Array.isArray(todoList) ? (
@@ -195,7 +195,7 @@ function Todo() {
                         </>
                     )}
                 </div>
-                <div className="col-sm-12 col-md-5">
+                <div className="col-sm-12 order-sm-1 order-md-2 col-md-5">
                     <h2 className="text-start mb-2"><span className="text-primary me-2"><PlusCircle /></span>Add Task</h2>
                     <form className=" p-4 bg-light">
                         <div className="mb-3">
